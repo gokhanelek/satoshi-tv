@@ -8,7 +8,7 @@
   },
   "header": {
     "motto": "Bitcoin ve Kriptoparalar Hakkında Herşey Bir Arada",
-    "hello":"Merhaba"
+    "hello": "Merhaba"
   },
   "content": {
     "spec-1": "Yepyeni ismi, logosu ve içerikleri ile değişen, dönüşen Satoshi TV yayında!",
@@ -22,8 +22,11 @@
       "firtsname": "İsim",
       "surname": "Soyisim",
       "email": "E-posta",
-      "email-placeholder":"E-posta adresinizi giriniz..."
+      "email-placeholder": "E-posta adresinizi giriniz..."
     }
+  },
+  "footer": {
+    "follow-us": "Bizi takip edin"
   },
   "common": {
     "send": "Gönder",

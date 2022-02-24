@@ -8,7 +8,7 @@
   },
   "header": {
     "motto": "All About Bitcoin and Cryptocurrencies in One",
-    "hello":"Hi"
+    "hello": "Hi"
   },
   "content": {
     "spec-1": "Changing and transforming Satoshi TV with its brand new name, logo and contents is on the air!",
@@ -22,8 +22,11 @@
       "firtsname": "Firstname",
       "surname": "Surname",
       "email": "E-mail",
-      "email-placeholder":"Enter your e-mail address..."
+      "email-placeholder": "Enter your e-mail address..."
     }
+  },
+  "footer": {
+    "follow-us": "Follow us"
   },
   "common": {
     "send": "Send",
