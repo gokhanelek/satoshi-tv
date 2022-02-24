@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54">
+  <g id="facebook" transform="translate(-493 -2048)">
+    <circle id="ellipse" cx="26" cy="26" r="26" transform="translate(494 2049)" fill="none" stroke="#fe9635" stroke-width="2"/>
+    <g id="icon" transform="translate(505.601 2061.422)">
+      <g id="Group_5" data-name="Group 5">
+        <path id="Path_6" data-name="Path 6" d="M17.957,7.11c.714-.025,1.423,0,2.144,0h.3V3.731c-.376-.035-.774-.086-1.178-.1-.73-.03-1.461-.065-2.182-.05a5.742,5.742,0,0,0-3.1.878,4.2,4.2,0,0,0-1.888,2.81,9.326,9.326,0,0,0-.13,1.445v2.566H8.4v3.782h3.529v9.515h4.315V15.087h3.512c.188-1.255.361-2.492.546-3.8h-4.09s0-1.874.038-2.69C16.256,7.478,16.98,7.14,17.957,7.11Z" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,161 @@
+.hero {
+  position: relative;
+  height: 777px;
+
+  &-background-img {
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    top: 0;
+    z-index: -1;
+  }
+
+  &-overlay {
+    background-color: #284761;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    opacity: 0.9;
+    z-index: -1;
+  }
+
+  &-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 237px;
+
+    &-txt-first {
+      font-size: 40px;
+    }
+
+    &-txt-second {
+      font-size: 50px;
+    }
+
+    &-txt-third {
+      font-size: 22px;
+    }
+
+    &-txt-color-orange {
+      color: #fd992d;
+    }
+
+    &-txt-style {
+      font-size: 16px;
+      font-weight: 400;
+    }
+  }
+
+  &-visit-channel {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .hero {
+    &-background-img {
+      height: 100%;
+    }
+    &-content {
+      padding-top: 271px;
+
+      &-txt-first {
+        font-size: 30px;
+      }
+
+      &-txt-second {
+        font-size: 40px;
+      }
+
+      &-txt-third {
+        font-size: 18px;
+      }
+
+      &-txt-style {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .hero {
+    height: 540px;
+
+    &-background-img {
+      height: 100%;
+    }
+    &-content {
+      padding-top: 174px;
+
+      &-txt-first {
+        font-size: 20px;
+      }
+
+      &-txt-second {
+        font-size: 30px;
+      }
+
+      &-txt-third {
+        font-size: 16px;
+      }
+
+      &-txt-style {
+        font-size: 12px;
+      }
+    }
+
+    &-visit-channel {
+      margin-top: 47px;
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .hero {
+    height: 410px;
+
+    &-background-img {
+      height: 100%;
+    }
+    &-content {
+      padding-top: 144px;
+
+      &-txt-first {
+        font-size: 12px;
+      }
+
+      &-txt-second {
+        font-size: 16px;
+      }
+
+      &-txt-third {
+        font-size: 10px;
+      }
+
+      &-txt-style {
+        font-size: 9px;
+        font-weight: 200;
+        padding: 0 30px;
+        text-align: center;
+      }
+    }
+
+    &-visit-channel {
+      margin-top: 31px;
+
+      .btn-orange {
+        width: 120px;
+        height: 26px;
+        border-radius: 4px;
+        font-size: 10px;
+      }
+    }
+  }
+}

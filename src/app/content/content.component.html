@@ -1,0 +1,91 @@
+<div class="content bg-color">
+  <div class="content-logo">
+    <img src="./assets/images/content/content-logo.svg" alt="">
+  </div>
+  <div class="container section">
+    <div class="row gy-5">
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+        <div class="section-bg-spec section-height-spec section-padding-spec">
+          <p>{{'content.spec-1' |translate}}</p>
+        </div>
+      </div>
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+        <div class="section-bg-spec section-height-spec section-padding-spec">
+          <p>{{'content.spec-2' |translate}}</p>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="section-bg-spec section-height-spec section-row-padding-spec">
+          <p>{{'content.spec-3' |translate}}</p>
+        </div>
+      </div>
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+        <div class="section-bg-spec section-height-spec section-padding-spec">
+          <p>{{'content.spec-4' |translate}}</p>
+        </div>
+      </div>
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+        <div class="section-bg-spec section-height-spec section-padding-spec">
+          <p>{{'content.spec-5' |translate}}</p>
+        </div>
+      </div>
+    </div>
+    <div class="btn-watch mt-4 text-center">
+      <button class="btn-orange btn-bg-color btn-color txt-bold" (click)="openModal(usermodal)">{{'content.watch-now'
+        |translate}}</button>
+    </div>
+  </div>
+  <div class="content-footer">
+    <img src="./assets/images/content/btcturk-logo.svg" alt="" srcset="">
+    <img src="./assets/images/content/btcturk-pro-logo.svg" alt="" srcset="">
+    <img src="./assets/images/content/btcturk-platform-logo.svg" alt="" srcset="">
+  </div>
+</div>
+
+
+
+<ng-template #usermodal>
+  <div class="user-modal">
+    <div class="modal-header">
+      <h4 class="modal-title txt-bold">{{'content.user-modal.title' | translate}}</h4>
+    </div>
+    <div class="modal-body">
+      <div class="container">
+        <form class="row" [formGroup]="userForm" (ngSubmit)="onSubmit(userForm)">
+          <div class="col-md-12 mb-2">
+            <label for="firstname" class="form-label">{{'content.user-modal.firtsname' | translate}}</label>
+            <input type="text" formControlName="firstname" class="form-control" />
+            <span class="text-danger"
+              *ngIf="(userFormControl['firstname'].touched || submitted) && userFormControl['firstname'].errors">
+              Firstname is required
+            </span>
+          </div>
+          <div class="col-md-12 mb-2">
+            <label for="surname" class="form-label">{{'content.user-modal.surname' | translate}}</label>
+            <input type="text" class="form-control" formControlName="surname" id="surname">
+            <span class="text-danger"
+              *ngIf="(userFormControl['surname'].touched || submitted) && userFormControl['surname'].errors">
+              Firstname is required
+            </span>
+          </div>
+          <div class="col-md-12 mb-2">
+            <label for="email" class="form-label">{{'content.user-modal.email' | translate}}</label>
+            <input type="email" class="form-control" formControlName="email" id="email"
+              placeholder="{{'content.user-modal.email-placeholder' | translate}}">
+            <span class="text-danger"
+              *ngIf="(userFormControl['email'].touched || submitted) && userFormControl['email'].errors">
+              Firstname is required
+            </span>
+          </div>
+          <div class="col-md-12 mt-4">
+            <div class="form-buttons-group">
+              <button class="btn btn-bg-color btn-color">{{'common.send' | translate}}</button>
+              <button class="btn btn-danger" type="button" (click)="modalRef?.hide()">{{'common.cancel' |
+                translate}}</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</ng-template>

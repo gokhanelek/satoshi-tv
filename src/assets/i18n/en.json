@@ -1,0 +1,32 @@
+{
+  "hero": {
+    "new-generation": "New Generation",
+    "digital-television": "Digital Television",
+    "information": "Information about Bitcoin and cryptocurrencies, Educational and entertaining content, Contests, Crypto Art",
+    "satoshi-info": "A new generation experience is with you with Satoshi TV",
+    "visit-channel": "Visit Channel"
+  },
+  "header": {
+    "motto": "All About Bitcoin and Cryptocurrencies in One",
+    "hello":"Hi"
+  },
+  "content": {
+    "spec-1": "Changing and transforming Satoshi TV with its brand new name, logo and contents is on the air!",
+    "spec-2": "A wide range of topics become educational and entertaining with the presentation of experts in their fields.",
+    "spec-3": "BtcTurk YouTube channel continues to broadcast under the name of Satoshi TV with its rich content on the axis of Bitcoin and cryptocurrencies, by not leaving the philosophy that constitutes the starting point of Bitcoin.",
+    "spec-4": "It's not just a YouTube channel, it accompanies your day with its original content.",
+    "spec-5": "Satoshi TV also sends thanks and greetings to Satoshi Nakamoto as it is being renewed",
+    "watch-now": "Watch Now",
+    "user-modal": {
+      "title": "User information",
+      "firtsname": "Firstname",
+      "surname": "Surname",
+      "email": "E-mail",
+      "email-placeholder":"Enter your e-mail address..."
+    }
+  },
+  "common": {
+    "send": "Send",
+    "cancel": "Cancel"
+  }
+}

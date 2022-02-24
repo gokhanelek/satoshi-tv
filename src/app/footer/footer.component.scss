@@ -1,0 +1,37 @@
+.footer {
+  position: relative;
+  height: 306px;
+  background-color: #182c34;
+
+  h2 {
+    padding-top: 72px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  &-social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    margin-top: 18px;
+  }
+
+  &-copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 52px;
+    background-color: #13252c;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .footer {
+    &-social-icons {
+      gap: 15px;
+    }
+  }
+}

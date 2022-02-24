@@ -1,0 +1,32 @@
+{
+  "hero": {
+    "new-generation": "Yeni Nesil",
+    "digital-television": "Dijital Televizyon",
+    "information": "Bitcoin ve kriptoparalar hakkında bilgiler, Eğitici ve eğlenceli içerikler, Yarışmalar, Kripto Sanat",
+    "satoshi-info": "Satoshi TV ile yeni nesil bir deneyim sizlerle",
+    "visit-channel": "Kanalı Ziyaret Et"
+  },
+  "header": {
+    "motto": "Bitcoin ve Kriptoparalar Hakkında Herşey Bir Arada",
+    "hello":"Merhaba"
+  },
+  "content": {
+    "spec-1": "Yepyeni ismi, logosu ve içerikleri ile değişen, dönüşen Satoshi TV yayında!",
+    "spec-2": "Geniş yelpazede konular, alanında uzman kişilerin sunumuyla eğitici ve eğlenceli bir hal alıyor",
+    "spec-3": "BtcTurk YouTube kanalı Bitcoin’in çıkış noktasını oluşturan felsefeden ayrılmayarak Bitcoin ve kriptopara ekseninde zengin içerikleriyle Satoshi TV adı altında yayına devam ediyor",
+    "spec-4": "Yalnızca bir YouTube kanalı değil orijinal içerikleriyle gününüze eşlikçi oluyor",
+    "spec-5": "Satoshi TV yenilenirken Satoshi Nakamoto’ya da teşekkür ve selam gönderiyor",
+    "watch-now": "Şimdi İzle",
+    "user-modal": {
+      "title": "Kullanıcı bilgisi",
+      "firtsname": "İsim",
+      "surname": "Soyisim",
+      "email": "E-posta",
+      "email-placeholder":"E-posta adresinizi giriniz..."
+    }
+  },
+  "common": {
+    "send": "Gönder",
+    "cancel": "İptal"
+  }
+}

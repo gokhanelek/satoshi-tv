@@ -1,0 +1,13 @@
+<header class="header">
+  <img src="./assets/images/header/header-logo.svg" alt="Header logo">
+  <ng-container *ngIf="user$ | async as user else motto">
+    <div class="header-motto">
+      <span>{{'header.hello' |translate}} {{user.firstname}} {{user.surname}}</span>
+    </div>
+  </ng-container>
+  <ng-template #motto>
+    <div class="header-motto">
+      <span>{{'header.motto' |translate}}</span>
+    </div>
+  </ng-template>
+</header>

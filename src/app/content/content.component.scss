@@ -1,0 +1,155 @@
+.content {
+  margin-top: -60px;
+
+  &-logo {
+    padding: 78px 0 60px 0;
+    text-align: center;
+
+    img {
+      width: 156px;
+      height: 136px;
+    }
+  }
+
+  .section {
+    color: #17667b;
+
+    &-height-spec {
+      height: 199px;
+    }
+
+    &-bg-spec {
+      background-color: #ededed;
+    }
+
+    &-padding-spec {
+      text-align: center;
+      padding: 121px 37px 0 37px;
+
+      p {
+        width: calc(100% - 74px);
+        text-align: center;
+        margin: auto;
+      }
+    }
+
+    &-row-padding-spec {
+      text-align: center;
+      padding: 125px 43px 0 43px;
+    }
+
+    p {
+      font-size: 18px;
+      font-weight: 600;
+    }
+  }
+
+  &-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 88px;
+    height: 138px;
+    background-color: #eceae9;
+  }
+}
+
+.user-modal {
+  background-color: #ededed;
+
+  .modal-header {
+    color: #17667b;
+
+    h4 {
+      text-align: center;
+    }
+  }
+
+  .modal-body {
+    color: #17667b;
+
+    input {
+      background: linear-gradient(#fbfbfb, #ffffff);
+      border: 1px solid gray;
+    }
+
+    .form-buttons-group {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 25px;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .content {
+    margin-top: -120px;
+
+    .section {
+      &-padding-spec {
+        text-align: center;
+        padding: 115px 37px 0 37px;
+      }
+
+      &-row-padding-spec {
+        text-align: center;
+        padding: 120px 43px 0 43px;
+      }
+      p {
+        font-size: 16px;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .content {
+    .section {
+      &-padding-spec {
+        text-align: center;
+        padding: 100px 37px 0 37px;
+      }
+
+      &-row-padding-spec {
+        text-align: center;
+        padding: 105px 43px 0 43px;
+      }
+
+      p {
+        font-size: 14px;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    .section {
+      &-padding-spec {
+        text-align: center;
+        padding: 90px 10px 0 10px;
+      }
+
+      &-row-padding-spec {
+        text-align: center;
+        padding: 70px 10px 0 10px;
+      }
+
+      p {
+        font-size: 12px;
+        font-weight: 600;
+      }
+    }
+
+    &-footer {
+      flex-direction: column;
+      height: auto;
+      padding: 20px;
+      gap: 30px;
+    }
+  }
+}
